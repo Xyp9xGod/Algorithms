@@ -1,8 +1,8 @@
 ﻿namespace Sort.Classes
 {
-    public class SelectionSortClass
+    public class Selection
     {
-        public SelectionSortClass()
+        public Selection()
         {
 
         }

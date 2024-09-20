@@ -1,8 +1,8 @@
 ﻿namespace Sort.Classes
 {
-    public class BubbleSortClass
+    public class Bubble
     {
-        public BubbleSortClass() { }
+        public Bubble() { }
 
         public static List<int> BubbleSort(List<int> list)
         {
