@@ -11,7 +11,7 @@
 
             bool escolhaValida = int.TryParse(option, out int optionChoosed);
 
-            if (!escolhaValida || optionChoosed < 1 || optionChoosed > 3)
+            if (!escolhaValida || optionChoosed < 1 || optionChoosed > 4)
                 return false;
 
             return true;

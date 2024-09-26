@@ -8,6 +8,7 @@ Console.WriteLine("Choose the Sort Algorithm:");
 Console.WriteLine("1 - Bubble Sort");
 Console.WriteLine("2 - Selection Sort");
 Console.WriteLine("3 - Insertion Sort");
+Console.WriteLine("4 - Merge Sort");
 Console.WriteLine("==========================");
 
 string algoritm = Console.ReadLine();
@@ -47,6 +48,9 @@ switch (algoritm)
         break;
     case "3":
         Insertion.InsertionSort(values);
+        break;
+    case "4":
+        Merge.MergeSort(values);
         break;
     default:
         Console.WriteLine("Opção inválida, saindo...");
